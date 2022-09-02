@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Stoke:wght@300&display=swap');
+body{
+    font-family: serif;
+}
+nav ul{
+    position: fixed;
+    top: 40px;
+    left: 25%;
+}
+.navbar{
+    background-color: #21252985 !important;
+}
+#crousecard{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    background-color: transparent;
+    color: rgb(238, 230, 230);
+    font-family: 'Nuosu SIL', serif;
+}
+nav ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    transition: 0.3s;
+    background-color:white;
+  }
+  nav ul li:hover::after{
+    width: 100%;
+  }
+  .navbar img{
+      position: relative;
+      top: 0px;
+      left: 3%;
+      width: 50%;
+  }
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card-body .btn{
+    width: 100%;
+    
+}
+
+.cart{
+    border: 1px solid black;
+    padding: 1px 8px;
+    margin: 0px 4px;
+}
+.container{
+    position: absolute;
+    top: 18%;
+    left: 8%;
+}
+#acrylic{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+#back{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+#foots{
+    position: absolute;
+    top: 3200px;
+    width: 100%;
+    background: black;
+}
+#footer{
+    background-color: black;
+}

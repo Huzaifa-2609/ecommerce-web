@@ -1,0 +1,201 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+let total=window.sessionStorage.getItem("total")||0;
+// console.log(localStorage.getItem("total"));
+
+ export default  window.price= (a)=>{
+//    items=[];
+    total=parseInt(total)+parseInt(a);
+    window.sessionStorage.setItem("total", total);
+    
+    document.getElementById("totalid").innerHTML=sessionStorage.getItem("total");
+}
+<!-- Footer -->
+<footer id="foots" class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fa fa-facebook-f"></i></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fa fa-twitter"></i></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fa fa-google"></i></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fa fa-instagram"></i></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fa fa-linkedin"></i></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fa fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img src="after pics\logo 2.svg" alt="after pics\logo 2.svg" style="width:210px;height: 120px; position: absolute;left: 20px;top: 10px;">
+            <h5 class="text-uppercase"><b>CONTACT US</b></h5>
+            <ul class="list-unstyled mb-0">
+                <li>
+                <a href="#" class="text-white">03171100583</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">R-1213 BLOCK-18,F.B AREA GULBERG,KARACHI</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">9:00 AM TO 9:00 PM</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"><b>ABOUT US</b></h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white">ABOUT US</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">INFORMATION</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">PRIVACY POLICY</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">TERMS & CONDITIONS</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"><b>MY ACCOUNT</b></h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white">SIGN IN</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">VEIW CART</a>
+                <a href="#" class="text-white"></a>
+              </li>
+              <li>
+                <a href="#" class="text-white">TRACK MY ORDER</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">HELP</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"><b>INSTALL APPS</b></h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white"><img style="width:100px;height:50px;" src="after pics\visa.svg " alt="after pics\visa.svg"></a>
+              </li>
+              <li>
+                <a href="#" class="text-white"><img style="width:100px;height:50px;" src="after pics\paypal.svg" alt="after pics\paypal.svg"></a>
+              </li>
+              
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">HTML,CSS ECOMMERCE TAMPLATES</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->

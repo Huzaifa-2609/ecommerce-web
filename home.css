@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Stoke:wght@300&display=swap');
+body{
+    font-family: serif;
+}
+nav ul{
+    position: fixed;
+    top: 40px;
+    left: 25%;
+}
+.navbar{
+    background-color: #2125297a !important;
+}
+#crousecard{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    background-color: transparent;
+    color: rgb(238, 230, 230);
+    font-family: 'Nuosu SIL', serif;
+}
+nav ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    transition: 0.3s;
+    background-color:white;
+  }
+  nav ul li:hover::after{
+    width: 100%;
+  }
+  .navbar img{
+      position: relative;
+      top: 0px;
+      left: 3%;
+      width:50%;
+  }
+.container{
+    position: absolute;
+    top: 85%;
+    left: 8%;
+}
+.card h5 {
+    background-color: rgba(118, 64, 19, 0.603);
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    top: 88%;
+    left: 0%;
+    color: #ffffffcc;
+    padding-top: 8px;
+    text-align: center;
+}
+.card{
+    width: 18rem; 
+    display: inline-block;
+}
+#back{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+#foots{
+    position: absolute;
+    top: 2100px;
+    width: 100%;
+}
